@@ -1,0 +1,30 @@
+# To-Do List Web App
+
+## Description
+
+This To-Do List Web App allows users to manage their tasks with features such as:
+
+- **Task Management:** Create, update, and delete tasks with a title, description, and due date.
+- **Priority Selection:** Set the task's priority (High, Medium, Low).
+- **Task Completion:** Mark tasks as completed.
+- **Persistence:** The app saves tasks in localStorage so they persist between page reloads.
+- **Dark Mode:** Toggle between dark and light modes for a personalized experience.
+- **Mobile-Friendly:** The app is fully responsive, making it easy to use on both mobile and desktop devices.
+
+## Technologies Used
+
+- **HTML** - For creating the structure.
+- **Tailwind CSS** - For styling and responsive design.
+- **JavaScript** - For interactivity and functionality.
+
+## Features
+
+- Add tasks with a title, description, priority, and due date.
+- Toggle between light and dark modes for a better visual experience.
+- Mark tasks as completed or delete them.
+- View tasks in a well-structured list, with options to filter by priority or status.
+- All tasks are saved in the browser's localStorage, ensuring persistence across sessions.
+
+## Getting Started
+
+1. Clone the repository:
