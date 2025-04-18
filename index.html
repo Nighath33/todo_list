@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced To-Do List</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-all">
+  <div class="max-w-xl mx-auto mt-10 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+    <div class="flex justify-between items-center mb-4">
+      <h1 class="text-2xl font-bold">📝 To-Do List</h1>
+      <button id="toggleDark" class="text-sm px-3 py-1 border rounded dark:border-white">🌙</button>
+    </div>
+
+    <div class="space-y-3 mb-6">
+      <input id="title" type="text" placeholder="Task Title" class="w-full p-2 border rounded dark:bg-gray-700" />
+      <textarea id="desc" placeholder="Task Description" class="w-full p-2 border rounded dark:bg-gray-700"></textarea>
+      <input id="due" type="datetime-local" class="w-full p-2 border rounded dark:bg-gray-700" />
+      <select id="priority" class="w-full p-2 border rounded dark:bg-gray-700">
+        <option value="Low">🟢 Low</option>
+        <option value="Medium">🟡 Medium</option>
+        <option value="High">🔴 High</option>
+      </select>
+      <button id="addTask" class="w-full bg-blue-600 hover:bg-blue-700 text-white p-2 rounded">Add Task</button>
+    </div>
+
+    <ul id="taskList" class="space-y-4"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
